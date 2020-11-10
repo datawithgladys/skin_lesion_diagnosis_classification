@@ -47,30 +47,30 @@ International Skin Imaging Collaboration (ISIC) 2018, 2019 and 2020 datasets:<br
 
 ### Location of Data
 The following files can be found at their respective locations or download links:
-|<div style="width:80px">Files</div>|<div style="width:100px">Notebook</div>|File Path|<div style="width:550px">Location/Links</div>|
+
+|Files|Notebook|File Path|Location/Links|
 |:---|:---:|:---|:---|
-|All .csv files|1, 2, 4a, 4b|in their respective folders in /dataset|In this github repo|
-|All .h5 files|4a, 4b|in their respective folders in /model|In this github repo|
-|All .hdf5 files|4a, 4b|in their respective folders in /weights|In this github repo|
-|Original images from image_dataset folder|1, 2|/datasets/image_dataset|https://drive.google.com/file/d/18aGpWmo3BDlK3fbRD4i5oLDzLAIbm53C/view?usp=sharing|
-|Preprocessed images from processed_image folder|2, 3a, 3b|/datasets/processed_image|https://drive.google.com/file/d/1OTrpBH5KpNgw5gjBE4SI7PS6xa19o3N7/view?usp=sharing|
-|X_test_lesion_284.npy, X_val_lesion_284.npy|4a|/datasets/npy/lesion/file.npy|https://drive.google.com/drive/folders/1OQkvKDiSHYP90keb8cVTWOG4bk0xDHjz?usp=sharing|
-|X_smote_lesion_284.npy|4a|/datasets/npy/lesion/file.npy|https://mega.nz/file/FF1SHAoC#_oOQI7dsHFni0IG5gOmqmGQ9dUqjgH6z2nLqJSNXEx8|
-|y_test_lesion_284.npy, y_val_lesion_284.npy, y_smote_lesion_284.npy|4a|/datasets/npy/lesion/file.npy|In this github repo|
-|X_test_diagnosis_284.npy, X_val_diagnosis_284.npy|4b|/datasets/npy/diagnosis/file.npy|https://drive.google.com/drive/folders/1T1yhTehcU40l21JO3XnyTyDXunwfP9OA?usp=sharing|
-|X_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/file.npy|https://drive.google.com/file/d/1depWfTbfmBo1Xb8RhL4tsTJebYNL66_l/view?usp=sharing|
-|y_test_diagnosis_284.npy, y_val_diagnosis_284.npy, y_diagnosis_lesion_284.npy|4b|/datasets/npy/diagnosis/file.npy|In this github repo|
+|All .csv, .h5, .hdf5 files|1, 2, 4a, 4b|in their respective folders|In this github repo|
+|Original images from image_dataset|1, 2|/datasets/|https://bit.ly/image_dataset|
+|Preprocessed images from processed_image folder|2, 3a, 3b|/datasets/|https://bit.ly/processed_image|
+|X_test_lesion_284.npy, X_val_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-test-x-val-lesion|
+|X_smote_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-smote-lesion|
+|y_test_lesion_284.npy, y_val_lesion_284.npy, y_smote_lesion_284.npy|4a|/datasets/npy/lesion/|In this github repo|
+|X_test_diagnosis_284.npy, X_val_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|https://bit.ly/x-test-x-val-diagnosis|
+|X_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|https://bit.ly/x-smote-diagnosis|
+|y_test_diagnosis_284.npy, y_val_diagnosis_284.npy, y_diagnosis_lesion_284.npy|4b|/datasets/npy/diagnosis/|In this github repo|
+
 
 ## Data Dictionary
-|<div style="width:70px">Skin Lesion</div>|<div style="width:70px">Abbreviation</div>|Diagnosis|<div style="width:120px">Description</div>|<div style="width:380px">Shape and Colour Chacteristics</div>|
-|:---|:---|:---|:---|:------|
-|**Actinic Keratoses**|AKIEC|Pre-cancerous|Includes Solar Keratoses and Bowen’s disease, which may progress to the  squamous cell carcinoma|Neoplasms commonly show surface scaling and commonly are devoid of pigment, though pigmented variants are still included in this set
-|**Basal Cell Carcinoma**|BCC|Malignant|Common variant of epithelial skin cancer that rarely metastasizes but grows destructively if untreated.|Appears in different morphologic variants (flat, nodular, pigmented, cystic)|
-|**Benign Keratosis-like Lesions**|BKL|Benign|Generic class that includes seborrheic keratoses/SK (senile wart), solar lentigo/SL (a flat variant of SK) and lichen-planus like keratoses/LPLK (SK or SL with inflammation and regression)|All three subgroups look different dermatoscopically; LPLK can show morphologic features mimicking MEL|
-|**Dermatofibroma**|DF|Benign|A benign skin lesion regarded as either a benign proliferation or an inflammatory reaction to minimal trauma|Reticular lines at the periphery with a central white patch denoting fibrosis|
-|**Melanoma**|MEL|Malignant|Malignant neoplasm derived from melanocytes; can be invasive or noninvasive|May appear in different variants and are usually, but not always, chaotic; dataset included all variants, except non-pigmented, subungual, ocular or mucosal melanoma
-|**Melanocytic Nevi**|NV|Benign|Benign neoplasms of melanocytes|Appear in a myriad of variants, which are all included in this set; Usually more symmetric with regard to the distribution of color and structure|
-|**Vascular Lesions**|VASC|Benign|Range from cherry angiomas and angiokeratomas to pyogenic granulomas and hemorrhage|Characterized by red or purple color and solid, well circumscribed structures known as red clods or lacunes|
+Skin Lesion|Abbreviation|Diagnosis|
+|:---|:---|:---|
+|**Actinic Keratoses**|AKIEC|Pre-cancerous|
+|**Basal Cell Carcinoma**|BCC|Malignant|
+|**Benign Keratosis-like Lesions**|BKL|Benign|
+|**Dermatofibroma**|DF|Benign|
+|**Melanoma**|MEL|Malignant|
+|**Melanocytic Nevi**|NV|Benign|
+|**Vascular Lesions**|VASC|Benign|
 
 ## Conclusion and Recommendations
 ### Recommendations
