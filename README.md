@@ -26,12 +26,12 @@ Resizing, central cropping, padding, and colour normalisation (gray-world algori
 For modelling and evaluation, our CNN models from both classification tasks will be mainly evaluated based on two main metrics, first on their accuracy rate, followed by their recall rate since we are looking to minimise false negatives. With a moderately high accuracy of 70.53% for our skin lesion classification task and 76.36% for our diagnosis classification task, the overall performance of our CNN models for both classification tasks are moderately successful. In terms of their recall rates, both models have surpassed their baseline score for their respective tasks, with weighted averaged recall rates all exceeding 70% (70.53% for skin lesion; 76.36% for diagnosis) and macro-averaged recall rates all surpassing 60% (60.68% for skin lesion; 64.43% for diagnosis). With both accuracy and recall rates being lower for most of the minority classes, adding more image data for the minority classes should be of utmost priority when training the model in the future. 
 
 ### Contents:
-- 1 Exploratory Data Analysis
-- 2 Image Preprocessing
-- 3a SMOTE for Skin Lesion Classifier
-- 3b SMOTE for Diagnosis Classifier
-- 4a Lesion Modelling and Evaluation
-- 4b Diagnosis Modelling and Evaluation with Conclusion
+- 1 - Exploratory Data Analysis
+- 2 - Image Preprocessing
+- 3a - SMOTE for Skin Lesion Classifier
+- 3b - SMOTE for Diagnosis Classifier
+- 4a - Lesion Modelling and Evaluation
+- 4b - Diagnosis Modelling and Evaluation with Conclusion
 
 
 ## Overview of Data
@@ -83,7 +83,7 @@ Moving forward, the following recommendations can be considered:
 
 2. Build a web application around our model so that the application could be used in-house securely at hospitals and skin clinics. Besides allowing dermatologists to make predictions with the web app, data could be also be added through this web app to further calibrate and improve our model (as explained above in the 1st point).<br>
 
-3. Additional metadata/medical data of patients (such as age, gender) as well as characteristics of lesions as noted down by the physicians (e.g. where the skin lesion is located; shape and colour of lesions) could be added to our model for more detailed analysis and predictions.<br>
+3. Additional metadata/medical data of patients (e.g. age, gender) or characteristics of lesions as noted down by the physicians (e.g. location of lesion) could be feeded to a fully connected network before merging the outputs of both sub-models (dense neural network and convolutional neural network models) for more detailed predictions and analysis.<br>
 
 4. The classification tasks of both models can be expanded to include other types of skin lesions, such as non-neoplastic lesions for diagnosis classification, as well as cystic lesions and more variants of melanoma lesions for skin lesion classification.<br>
 
