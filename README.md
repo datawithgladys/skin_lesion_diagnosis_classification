@@ -54,8 +54,8 @@ The following files can be found at their respective locations or download links
 |<div style="width:60px">Files</div>|Notebook|File Path|Location/Links|
 |:---|:---:|:---|:---|
 |All .csv, .h5, .hdf5 files|1, 2, 4a, 4b|in their respective folders|In this github repo|
-|Original images from image_dataset|1, 2|/datasets/|https://bit.ly/image_dataset|
-|Preprocessed images from processed_image folder|2, 3a, 3b|/datasets/|https://bit.ly/processed_image|
+|Original images in image_dataset folder|1, 2|/datasets/|https://bit.ly/image_dataset|
+|Preprocessed images in processed_image folder|2, 3a, 3b|/datasets/|https://bit.ly/processed_image|
 |X_test_lesion_284.npy, X_val_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-test-x-val-lesion|
 |X_smote_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-smote-lesion|
 |y_test_lesion_284.npy, y_val_lesion_284.npy, y_smote_lesion_284.npy|4a|/datasets/npy/lesion/|In this github repo|
