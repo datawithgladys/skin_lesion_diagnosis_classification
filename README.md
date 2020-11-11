@@ -5,7 +5,7 @@
 ## Problem Statement
 Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Even though dermoscopy, a skin imaging modality, has demonstrated improvement for the diagnosis of skin cancer compared to unaided visual inspection, numerous cases of benign lesions are still being diagnosed as malicious and vice versa. Every year, poor diagnostic errors adds an estimated $673 million in overall cost to manage the disease.
 
-In this project, we aim to improve the diagnosis rate of skin cancer through the classification of skin lesions for dermatologists working at hospitals or skin clinics in Singapore, who will need experience or expertise in diagnosing skin cancer before they can accurately identify and diagnose lesions upon visual and dermoscopy inspection. This will be done through the classification of skin lesion dermoscopy images, in which we will predict two important tasks through the usage of Convolutional Neural Network models: <br>
+In this project, we aim to improve the diagnostic rate of skin cancer through the classification of skin lesions for dermatologists working at hospitals or skin cancer clinics in Singapore, who will need experience or expertise in diagnosing skin cancer before they can accurately identify and diagnose lesions upon visual and dermoscopy inspection. This will be done through the classification of skin lesion dermoscopy images, in which we will predict two important tasks through the usage of Convolutional Neural Network models: <br>
 1. a specific skin lesion diagnosis, and <br>
 2. whether the lesion is malignant, benign, or pre-cancerous. <br>
 
@@ -15,7 +15,7 @@ The model will be evaluated based on its accuracy, followed by its recall rate s
 ## Executive Summary
 Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Even though dermoscopy, a skin imaging modality, has demonstrated improvement for the diagnosis of skin cancer compared to unaided visual inspection, many benign lesions are still being misdiagnosed as malicious and vice versa. Every year, these misdiagnosis errors adds an estimated $673 million in overall cost to manage the disease. 
 
-In this project, we aim to improve the diagnosis rate of skin cancer for dermatologists working at various hospitals and skin clinics in Singapore, who typically require a lot of experience before they can accurately identify and diagnose skin cancer upon visual inspection and dermoscopy. Through the usage of Convolutional Neural Network models, we will execute two important image classification tasks:
+In this project, we aim to improve the diagnostic rate of skin cancer for dermatologists working at various hospitals and skin cancer clinics in Singapore, who typically require a lot of experience before they can accurately identify and diagnose skin cancer upon visual inspection and dermoscopy. Through the usage of Convolutional Neural Network models, we will execute two important image classification tasks:
 1. Classifying dermoscopic images based on their specific skin lesion, followed by
 2. Classifying dermoscopic images based on their appropriate diagnosis (malignant, benign, or pre-cancerous)
 
@@ -54,8 +54,8 @@ The following files can be found at their respective locations or download links
 |<div style="width:60px">Files</div>|Notebook|File Path|Location/Links|
 |:---|:---:|:---|:---|
 |All .csv, .h5, .hdf5 files|1, 2, 4a, 4b|in their respective folders|In this github repo|
-|Original images from image_dataset|1, 2|/datasets/image_dataset/|https://bit.ly/image_dataset|
-|Preprocessed images from processed_image folder|2, 3a, 3b|/datasets/processed_image/|https://bit.ly/processed_image|
+|Original images from image_dataset|1, 2|/datasets/|https://bit.ly/image_dataset|
+|Preprocessed images from processed_image folder|2, 3a, 3b|/datasets/|https://bit.ly/processed_image|
 |X_test_lesion_284.npy, X_val_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-test-x-val-lesion|
 |X_smote_lesion_284.npy|4a|/datasets/npy/lesion/|https://bit.ly/x-smote-lesion|
 |y_test_lesion_284.npy, y_val_lesion_284.npy, y_smote_lesion_284.npy|4a|/datasets/npy/lesion/|In this github repo|
