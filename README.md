@@ -79,7 +79,7 @@ Skin Lesion|Abbreviation|Diagnosis|
 ## Conclusion and Recommendations
 ### Recommendations
 Moving forward, the following recommendations can be considered:
-1. With most misclassified images coming from minority classes, more data should be collected for those minority classes so that the model could learn more about the various types of colours, shapes, outlines and even size of the lesions from all these extra data collected. Even though SMOTE was used in this project to upsample the minority classes, using real images of the lesions from our minority classes would be much more useful for the model than synthetic samples created from SMOTE. <br>
+1. With most misclassified images coming from minority classes, more data should be collected for those minority classes so that the model could learn more about the various types of colours, shapes, outlines and even size of the lesions from all these extra data collected. Even though SMOTE was used in this project to oversample the minority classes, using real images of the lesions from our minority classes would be much more useful for the model than synthetic samples created from SMOTE. <br>
 
 2. Build a web application around our model so that the application could be used in-house securely at hospitals and skin cancer clinics. Besides allowing dermatologists to make predictions with the web app, data could be also be added through this web app to further calibrate and improve our model (as explained above in the 1st point).<br>
 
