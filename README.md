@@ -33,6 +33,9 @@ For modelling and evaluation, our CNN models from both classification tasks will
 - 4a - Lesion Modelling and Evaluation
 - 4b - Diagnosis Modelling and Evaluation with Conclusion
 
+#### Special Note
+Due to computational limitations, I ran notebooks 3a, 3b, 4a and 4b on AWS 'g4dn.4xlarge' EC2 instance with Ubuntu's Deep Learning AMI.
+
 
 ## Overview of Data
 <b>Main Data Sources:</b><br>
@@ -63,8 +66,8 @@ The following files can be found at their respective locations or download links
 |X_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|https://bit.ly/x-smote-diagnosis|
 |y_test_diagnosis_284.npy, y_val_diagnosis_284.npy, y_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|In this github repo|
 
-### Special Note
-Due to computational limitations, I ran notebooks 3a, 3b, 4a and 4b on AWS 'g4dn.4xlarge' EC2 instance with Ubuntu's Deep Learning AMI.
+#### Special Note
+Please note that the sizes of X_smote_lesion_284.npy and X_smote_diagnosis_284.npy are 18.94 GB, and 11.0 GB respectively.
 
 ## Data Dictionary
 Skin Lesion|Abbreviation|Diagnosis|
