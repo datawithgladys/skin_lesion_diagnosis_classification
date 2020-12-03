@@ -15,7 +15,7 @@ The model will be evaluated based on its accuracy, followed by its recall rate s
 ## Executive Summary
 Skin cancer is the most common cancer globally, with melanoma being the most deadly form. Even though dermoscopy, a skin imaging modality, has demonstrated improvement for the diagnosis of skin cancer compared to unaided visual inspection, many benign lesions are still being misdiagnosed as malicious and vice versa. Every year, these misdiagnosis errors adds an estimated $673 million in overall cost to manage the disease. 
 
-In this project, we aim to improve the diagnostic rate of skin cancer for dermatologists working at various hospitals and skin cancer clinics in Singapore, who typically require a lot of experience before they can accurately identify and diagnose skin cancer upon visual inspection and dermoscopy. Through the usage of Convolutional Neural Network models, we will execute two important image classification tasks:
+In this project, we aim to improve the diagnostic rate of skin cancer for dermatologists working at various hospitals and skin cancer clinics in Singapore, who typically require a lot of experience before they can accurately identify and diagnose skin cancer upon visual inspection and dermoscopy. Through the usage of Convolutional Neural Network models (on AWS), we will execute two important image classification tasks:
 1. Classifying dermoscopic images based on their specific skin lesion, followed by
 2. Classifying dermoscopic images based on their appropriate diagnosis (malignant, benign, or pre-cancerous)
 
@@ -63,6 +63,8 @@ The following files can be found at their respective locations or download links
 |X_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|https://bit.ly/x-smote-diagnosis|
 |y_test_diagnosis_284.npy, y_val_diagnosis_284.npy, y_smote_diagnosis_284.npy|4b|/datasets/npy/diagnosis/|In this github repo|
 
+### Special Note
+Due to computational limitations, I ran notebooks 3a, 3b, 4a and 4b on AWS 'g4dn.4xlarge' EC2 instance with Ubuntu's Deep Learning AMI.
 
 ## Data Dictionary
 Skin Lesion|Abbreviation|Diagnosis|
