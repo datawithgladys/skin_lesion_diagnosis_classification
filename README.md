@@ -25,6 +25,8 @@ Resizing, central cropping, padding, and colour normalisation (white balancing g
 
 For modelling and evaluation, our CNN models from both classification tasks will be mainly evaluated based on two main metrics, first on their accuracy rate, followed by their recall rate since we are looking to minimise false negatives. With a moderately high accuracy of 70.53% for our skin lesion classification task and 76.36% for our diagnosis classification task, the overall performance of our CNN models for both classification tasks are moderately successful. In terms of their recall rates, both models have surpassed their baseline score for their respective tasks, with weighted averaged recall rates all exceeding 70% (70.53% for skin lesion; 76.36% for diagnosis) and macro-averaged recall rates all surpassing 60% (60.68% for skin lesion; 64.43% for diagnosis). With both accuracy and recall rates being lower for most of the minority classes, adding more image data for the minority classes should be of utmost priority when training the model in the future. 
 
+Update: The deployment of each of the models have been made using Tensorflow Serving (through the use of Docker). 
+
 ### Contents:
 - 1 - Exploratory Data Analysis
 - 2 - Image Preprocessing
@@ -32,6 +34,8 @@ For modelling and evaluation, our CNN models from both classification tasks will
 - 3b - SMOTE for Diagnosis Classifier
 - 4a - Lesion Modelling and Evaluation
 - 4b - Diagnosis Modelling and Evaluation with Conclusion
+- 5a - Deployment of Lesion Classifier Using Tensorflow Serving
+- 5a - Deployment of Skin Classifier Using Tensorflow Serving
 
 #### Special Note
 Due to computational limitations, I ran notebooks 3a, 3b, 4a and 4b on AWS 'g4dn.4xlarge' EC2 instance with Ubuntu's Deep Learning AMI.
